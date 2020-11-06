@@ -37,5 +37,7 @@ IEC and CM tools like Terraform/CloudFormation/Ansible are an advantage
 IaC tools like Terraform and CloudFormation will be an advantage
 
 ![Imgur](https://i.imgur.com/YmYQ4eX.png)
+
 ![Imgur](https://i.imgur.com/KIhMM1g.png)
+
 ![Imgur](https://i.imgur.com/SdMyhSl.png)
