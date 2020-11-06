@@ -1,0 +1,5 @@
+public_subnet_cidr_block="172.30.55.0/24"
+private_subnet_cidr_block="172.30.56.0/24"
+availability_zone="us-east-1a"
+function_file_path="functions/lambda_function.py"
+function_name="blevk_function"
