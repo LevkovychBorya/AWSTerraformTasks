@@ -1,3 +1,5 @@
+## Tasks with terraform
+
 1) Set up a highly-available WordPress service on AWS. Task breakdown:
 
 - Create VPC with private and public subnets. Use at least 2 AZs
@@ -9,6 +11,8 @@
 - Make sure security groups are configured properly. DB should be accessed only from app instances.
 Use minimal instances size (t2.micro)  to save cost.
 IEC and CM tools like Terraform/CloudFormation/Ansible are an advantage.
+
+![Imgur](https://i.imgur.com/YmYQ4eX.png)
 
 2) Create an ELK stack running on EC2.
 
@@ -24,6 +28,8 @@ IEC and CM tools like Terraform/CloudFormation/Ansible are an advantage.
 Use minimal instances size to save cost. Elasticsearch may require more than t2.micro to run.
 IEC and CM tools like Terraform/CloudFormation/Ansible are an advantage
 
+![Imgur](https://i.imgur.com/KIhMM1g.png)
+
 3) Create a lambda function that checks the health of some secured HTTP endpoints. Task breakdown:
 
 - Create VPC with private and public subnets
@@ -35,9 +41,5 @@ IEC and CM tools like Terraform/CloudFormation/Ansible are an advantage
   d. Make function execute inside of your private subnet.
   e. Make adding new endpoints easy to do.
 IaC tools like Terraform and CloudFormation will be an advantage
-
-![Imgur](https://i.imgur.com/YmYQ4eX.png)
-
-![Imgur](https://i.imgur.com/KIhMM1g.png)
 
 ![Imgur](https://i.imgur.com/SdMyhSl.png)
