@@ -1,4 +1,4 @@
-## Tasks with terraform
+## Task I was given on probation period Terraform + AWS
 
 1) Set up a highly-available WordPress service on AWS. Task breakdown:
 
